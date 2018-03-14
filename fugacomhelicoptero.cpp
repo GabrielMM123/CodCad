@@ -4,24 +4,24 @@ int main(){
     int H,P,F,D;
     cin>>H>>P>>F>>D;
     if (D == -1) {
-        if (F > H and H > P) {
-            cout << "S\n";
-        } else if (P > F and F > H) {
-            cout << "S\n";
-        } else if (H > P and P > F) {
-            cout << "S\n";
+        if (F > H && H > P) {
+            cout << "S";
+        } else if (P > F && F > H) {
+            cout << "S";
+        } else if (H > P && P > F) {
+            cout << "S";
         } else {
-            cout << "N\n";
+            cout << "N";
         }
     } else {
-        if (F > P and P > H) {
-            cout << "S\n";
-        } else if (P > H and H > F) {
-            cout << "S\n";
-        } else if (H > F and F > P) {
-            cout << "S\n";
+        if (F > P && P > H) {
+            cout << "S";
+        } else if (P > H && H > F) {
+            cout << "S";
+        } else if (H > F && F > P) {
+            cout << "S";
         } else {
-            cout << "N\n";
+            cout << "N";
         }
     }
     return 0;
